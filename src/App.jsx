@@ -1,9 +1,35 @@
 import React from 'react'
-import Counter from './Counter'
+import Counter from './compoent/Counter/counter'
+
+import CountProducts from './compoent/countproduct/CountProducts'
 
 export const App = () => {
   return (
-  <Counter/>
+    <div>
+      <Counter name={"mause" } stock={5}/>,
+      <Counter name ={"keyboard"} stock={10}/>
+     <br>
+     
+     
+     </br>
+
+     <br>
+     
+     
+     </br>
+  
+
+
+      <br>
+      
+      
+      
+      </br>
+
+      <CountProducts/>
+    </div>
+  
+
   )
 } 
 
